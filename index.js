@@ -46,9 +46,10 @@ const f = async () => {
         if(config.MessagePrefs[prop]){
             console.log(`Found preference: ${config.MessagePrefs[prop]} for base ${prop}.`);
         }else{
-            console.log(`No preference was found for base ${prop}.`)
+            console.log(`No preference was found for base ${prop}.`);
         }
       }
     
+}
 
 f();
