@@ -33,7 +33,7 @@ const f = async () => {
 
     // search for "index.html" which should be there
     for (var i = 0; i < zipEntries.length; i++) {
-        console.log(zip.readAsText(zipEntries[i]));
+     //   console.log(zip.readAsText(zipEntries[i]));
     }
     const idgen = makeid(5);
     const idgen2 = makeid(5);
@@ -42,7 +42,13 @@ const f = async () => {
     // and to extract it into current working directory
     zip.extractAllTo(dirmight, true);
     var config = ini.parse(fs.readFileSync(`${dirmight}/en_us/installer.siui`, 'utf-8'))
-    config.
-};
+    for (const prop in config.Base) {
+        if(config.MessagePrefs[prop]){
+            console.log(`Found preference: ${config.MessagePrefs[prop]} for base ${prop}.`);
+        }else{
+            console.log(`No preference was found for base ${prop}.`)
+        }
+      }
+    
 
 f();
