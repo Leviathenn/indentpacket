@@ -1,0 +1,8 @@
+[Base]
+installerMessage = "Would you like to Install Slickback 2.1?"
+formatMessage = ""
+
+[Actions]
+InstallerButton00 = "Yes"
+InstallerButton001 = "No"
+
