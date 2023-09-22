@@ -1,23 +1,29 @@
 [Base]
-installerMessage = "Would you like to Install Slickback 2.1?"
-formatMessage = "To Install Slickback  OS, Drive 1:\ has to be formated." 
-formatingMessagae = "Formating Drive 1:\..."
-formatCompelete = "The format has been completed! Contiuning to Install"
-OSInstall = "Installing Slickback 2.1 ..."
+installerMessage = Would you like to Install Slickback 2.1?
+formatMessage = To Install Slickback  OS, Drive 1:\ has to be formated. 
+formatingMessagae = Formating Drive 1:\...
+formatCompelete = The format has been completed! Contiuning to Install
+OSInstall = Installing Slickback 2.1 ...
 
 [Messages]
-ISOS00 = "Did you know that Slickback was made in C# using Cosmos and by editing the assembly generated?"
-ISOS001 = "No No, I'm A Pimp Named Slickback."
-ISOS002 = "N word are you deaf?"
-ISOS003 = "Learn more about Slickback os by going to the Slickback wiki!"
-ISOS004 = "Do People even read this"
-ISOS005 = "This is the English version, so I wrote the langauge pack all by my self."
-ISOS006 = "You know I wrote the shell write? 'dputil format 0:\ --force' Don't run that unless you know"
-ISOS007 = "Terminal commands can be ran with sudo, but the ".slickbackInstaller" Can only be editied by the installer, or the shell"
-ISOS008 = "Code Name ISOS, Action 0[index]"
-
+ISOS00 = Did you know that Slickback was made in C# using Cosmos and by editing the assembly generated?
+ISOS001 = No No, I'm A Pimp Named Slickback.
+ISOS002 = N word are you deaf?
+ISOS003 = Learn more about Slickback os by going to the Slickback wiki!
+ISOS004 = Do People even read this
+ISOS005 = This is the English version, so I wrote the langauge pack all by my self.
+ISOS006 = You know I wrote the shell write? 'dputil format 0:\ --force' Don't run that unless you know
+ISOS007 = Terminal commands can be ran with sudo, but the .slickbackInstaller Can only be editied by the installer, or the shell
+ISOS008 = Code Name ISOS, Action 0[index]
+ISOS009 = He want a 'Operating System' Like 'Slickback
+ISO0010 = He got a phone just for pictures of this wet a** 'Slickback'
+ISO0011 = I said certified 'Operating System' 7 days a week. Wet a** 'Slickback'
+ISO0012 = Slickback made it!
+ISO0013 = 24 songs, Carti? 
 [Actions]
-InstallerButton00 = "Yes"
-InstallerButton001 = "No"
-InstallerButton002 = "Okay"
-InstallerButton003 = "Press any key to continue"
+InstallerButton00 = Yes
+InstallerButton001 = No
+InstallerButton002 = Okay
+InstallerButton003 = Press any key to continue
+[MessagePrefs]
+formatMessage = InstallerButton002
